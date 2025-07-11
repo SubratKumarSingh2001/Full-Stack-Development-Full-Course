@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form>
+        <label for="Email"> Email : 
+            <input type="text" name="Email" placeholder="Enter Email"> 
+        </label>
+        <label for="Password">Password :
+            <input type="password" name="Password" id="">
+        </label>
+        <input type="reset" value="Reset">
+    </form>
+
+    <!--Another Form-->
+    <div>
+        <form>
+            <h1>Login Details</h1>
+            <label for="email">Email :
+                <input type="email" name="email" id="email">
+            </label>
+            <label for="games">
+                Cricket : <input type="checkbox" name="games" id="games" value="Cricket"> <br>
+                Football : <input type="checkbox" name="games" id="games" value="Football"> <br>
+                Basketball : <input type="checkbox" name="games" id="games" value="Basketball"> <br>
+                Hockey : <input type="checkbox" name="games" id="games" value="Hockey">
+            </label>
+
+            <br>
+            <!--Dropdown Area-->
+            <label for="games">
+                <select name="" id="games">
+                    <option value="Cricket">Cricket</option>
+                    <option value="Football">Football</option>
+                    <option value="Basketball">Basketball</option>
+                    <option value="Hockey">Hockey</option>
+                </select>
+            </label>
+        </form>
+    </div>
+</body>
+</html>
