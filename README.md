@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
+<!--   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
@@ -17,7 +17,7 @@
     .badges img {
       margin: 5px 5px 0 0;
     }
-  </style>
+  </style> -->
 </head>
 <body>
 
